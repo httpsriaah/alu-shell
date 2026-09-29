@@ -1,2 +1,3 @@
-# Permissions
-This project contains Bash scripts for managing users, file permissions, ownership, and groups.
+# Shell, permissions
+
+Each script wraps a single command: su, whoami, groups, chown, touch, chmod, mkdir, chgrp.
