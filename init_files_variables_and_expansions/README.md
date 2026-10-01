@@ -1,3 +1,3 @@
-# Shell Variables, Initialization Files and Expansions
-This project contains Bash scripts for aliases, variables, PATH manipulation, arithmetic, expansions, and text processing.
-Scripts for shell variables, initialization files, and expansions.
+# Shell, init files, variables and expansions
+
+Each script wraps a single command or expansion using export, printenv, set, tr, grep, printf, paste and cut.
