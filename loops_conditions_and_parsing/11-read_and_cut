@@ -1,0 +1,5 @@
+#!/bin/bash
+while IFS=: read -r u p uid gid info home shell
+do
+echo "$u:$uid:$home"
+done < /etc/passwd
