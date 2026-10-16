@@ -1,5 +1,6 @@
-#!/bin/bash
-for f in *
-do
-echo "${f#*-}"
+#!/usr/bin/env bash
+# This script displays directory names after the first dash
+for file in *; do
+    [ -e "$file" ] || continue
+    printf '%s\n' "${file#*-}"
 done
